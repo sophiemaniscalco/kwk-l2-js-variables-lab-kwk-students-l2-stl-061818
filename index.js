@@ -7,7 +7,9 @@ describe('index.js', function () {
   describe('Scuber', function () {
     it('is set as Scuber', function () {
       expect(companyName) = ('Scuber');
-    });
+    }); else if {
+      
+    }
 
     it('raises error if the companyName is changed', function () {
       expect(function () { companyName = 'specialCompany' }).to.throw(TypeError);
