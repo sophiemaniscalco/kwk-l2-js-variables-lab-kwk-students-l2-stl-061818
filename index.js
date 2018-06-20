@@ -1,10 +1,12 @@
 // Code your solution in this file!
 let companyName = 'Scuber';const expect = chai.expect;
 
+
+
 describe('index.js', function () {
-  describe('companyName', function () {
+  describe('Scuber', function () {
     it('is set as Scuber', function () {
-      expect(companyName).to.equal('Scuber');
+      expect(companyName) = ('Scuber');
     });
 
     it('raises error if the companyName is changed', function () {
